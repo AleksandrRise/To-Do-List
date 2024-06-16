@@ -1,0 +1,4 @@
+-- Hello everyone! My name is Aleksandr, I primarily focus on web development for now.
+-- In the future, planning to get into AI, but for now, my Math skills are fairly low.
+--
+-- This project is about a to-do list which will combine both frontend and backend sides.
