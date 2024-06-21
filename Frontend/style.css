@@ -1,0 +1,7 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #1DE691, #10BF75);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
