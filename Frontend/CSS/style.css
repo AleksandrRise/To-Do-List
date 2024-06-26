@@ -1,7 +1,60 @@
+:root {
+    /* Sizes */
+    --listBlock-width: 553px;
+    --listBlock-width: 483px; 
+
+    --inputBlock-width: 403px;
+    --inputBlock-height: 61px; 
+    --inputText-size: 30px;
+
+    --noteBlock-width: var(var(--input-width));
+    --noteBlock-height: 54px;
+    --noteText-size: 20px;
+    --noteTime-width: 62px;
+    --noteTime-height: 54px;
+    --noteTimeText-size: 25px;
+
+    --scrollBlock-width: 27px;
+    --scrollBlock-height: 394px;
+    --scroll-width: 27px;
+    --scroll-height: 41px;
+
+    --line-width: 425px;
+    --line-thickness: 5px;
+
+    --decorationLine-smallest-thickness: 3px;
+    --decorationLine-largest-thickness: 5px;
+
+    /* Colors */
+    --background: linear-gradient(135deg, #1DE691, #10BF75);
+
+    --listBlock-color: #11D784;
+
+    --inputBlock-color: rgba(11, 252, 151, 0.7);
+    --inputText-color: rgba(0, 0, 0, 0.3);
+
+    --noteBlock-color: #10BF75;
+    --noteText-color: #fff;
+    --noteTime-color: #1DE691;
+    --noteTimeText-urgent-color: rgba(255, 0, 0, 0.7);
+    --noteTimeText-medium-color: rgba(255, 153, 0, 0.8);
+    --noteTimeText-notUrgent-color: #05FF00;
+
+    --scrollBlock-color: var(--noteBlock-color);
+    --scroll-color: #0BFC97;
+
+    --line-color: #7BF4C1;
+}
+
+* {
+    font-weight: 600;
+    color: #fff;
+}
+
 body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(135deg, #1DE691, #10BF75);
+    background: var(--background);
     background-repeat: no-repeat;
     background-size: cover;
 }
