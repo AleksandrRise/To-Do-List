@@ -1,7 +1,7 @@
 :root {
     /* Sizes */
     --listBlock-width: 553px;
-    --listBlock-width: 483px; 
+    --listBlock-height: 483px; 
 
     --inputBlock-width: 403px;
     --inputBlock-height: 61px; 
@@ -49,6 +49,11 @@
 * {
     font-weight: 600;
     color: #fff;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #10BF75;
 }
 
 body {
@@ -57,4 +62,19 @@ body {
     background: var(--background);
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Body Elements */
+
+.notes-container {
+    background-color: var(--listBlock-color);
+    width: var(--listBlock-width);
+    height: var(--listBlock-height);
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 7px rgba(0, 0, 0, 0.25);
 }
