@@ -43,7 +43,7 @@
     --scrollBlock-color: var(--noteBlock-color);
     --scroll-color: #0BFC97;
 
-    --line-color: #7BF4C1;
+    --list-line-color: #7BF4C1;
 }
 
 * {
@@ -69,7 +69,6 @@ body {
 }
 
 /* Body Elements */
-
 .notes-container {
     background-color: var(--listBlock-color);
     width: var(--listBlock-width);
@@ -84,14 +83,14 @@ body {
     position: absolute;
 }
 #line1 {
-    
+    color: #43C558;
 }
 #line2 {
-
+    color: #41E25B;
 }
 #line3 {
-
+    color: #36B54B;
 }
 #line4 {
-
+    color: #29993B;
 }
