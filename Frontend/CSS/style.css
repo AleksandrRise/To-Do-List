@@ -83,14 +83,22 @@ body {
     position: absolute;
 }
 #line1 {
-    color: #43C558;
+    background-color: #43C558;
+    width: 283px;
+    height: 3px;
 }
 #line2 {
-    color: #41E25B;
+    background-color: #41E25B;
+    width: 432px;
+    height: 5px;
 }
 #line3 {
-    color: #36B54B;
+    background-color: #36B54B;
+    width: 432px;
+    height: 5px;
 }
 #line4 {
-    color: #29993B;
+    background-color: #29993B;
+    width: 283px;
+    height: 3px;
 }
