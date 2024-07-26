@@ -81,6 +81,7 @@ body {
 /* Lines BG */
 .lines {
     position: absolute;
+    rotate: -55deg;
 }
 #line1 {
     background-color: #43C558;
